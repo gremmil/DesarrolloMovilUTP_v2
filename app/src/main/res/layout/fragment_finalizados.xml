@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris"
+    tools:context=".FinalizadosFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:background="#357BE3"
+        android:text="LOGO"/>
+
+    <Spinner
+        android:id="@+id/spinner_empresa"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="80dp"
+        android:background="@color/white"
+        android:entries="@array/datos_spinner_empresa"/>
+
+    <Spinner
+        android:id="@+id/spinner_evento"
+        android:layout_width="130dp"
+        android:layout_height="58dp"
+        android:layout_gravity="end|top"
+        android:layout_marginTop="80dp"
+        android:background="@color/white"
+        android:entries="@array/datos_spinner_evento"/>
+
+
+
+    <Spinner
+        android:id="@+id/spinner_estado"
+        android:layout_width="130dp"
+        android:layout_height="58dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="80dp"
+        android:background="@color/white"
+        android:entries="@array/datos_spinner_estado"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_finalizados"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_margin="4dp"
+        android:layout_gravity="bottom"
+        tools:listitem="@layout/item_rv_pedidos"/>
+
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/page_gestion">
+
+    <fragment
+        android:id="@+id/page_gestion"
+        android:name="com.luis.proyectoaplicacionmovil.GestionFragment"
+        tools:layout="@layout/fragment_gestion"/>
+
+    <fragment
+        android:id="@+id/page_informacion"
+        android:name="com.luis.proyectoaplicacionmovil.InformacionFragment"
+        tools:layout="@layout/fragment_informacion"/>
+
+    <fragment
+        android:id="@+id/page_finalizados"
+        android:name="com.luis.proyectoaplicacionmovil.FinalizadosFragment"
+        tools:layout="@layout/fragment_finalizados"/>
+
+</navigation>
