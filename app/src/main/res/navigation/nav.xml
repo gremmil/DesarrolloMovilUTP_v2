@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/page_gestion"
-        android:name="com.luis.proyectoaplicacionmovil.GestionFragment"
-        tools:layout="@layout/fragment_gestion"/>
+        android:name="com.luis.proyectoaplicacionmovil.ManagementActivity"
+        tools:layout="@layout/activity_managment"/>
 
     <fragment
         android:id="@+id/page_informacion"
-        android:name="com.luis.proyectoaplicacionmovil.InformacionFragment"
-        tools:layout="@layout/fragment_informacion"/>
+        android:name="com.luis.proyectoaplicacionmovil.InformationActivity"
+        tools:layout="@layout/activity_information"/>
 
     <fragment
         android:id="@+id/page_finalizados"

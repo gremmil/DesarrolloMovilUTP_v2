@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".InformationActivity">
+    <!-- Agrega el elemento con el ID custom_toolbar -->
 
     <Button
         android:id="@+id/button_test"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="Ver Informacion del Pedido"
+        android:text="Registrar Pedido"
         >
 
     </Button>
